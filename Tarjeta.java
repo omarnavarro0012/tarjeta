@@ -2,9 +2,8 @@ public class Tarjeta
 {
     public float Saldo;
     
-    public Tarjeta()
+    private Tarjeta()
     {
-       
         Saldo=0;
     }
     
