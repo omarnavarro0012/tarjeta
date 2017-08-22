@@ -4,12 +4,16 @@ public class Tarjeta
     
     public Tarjeta()
     {
+       
         Saldo=0;
     }
     
     public void Depositar(float dinero)
     {
-        Saldo=Saldo+dinero;
+        if (dinero>0)
+        {
+            Saldo=Saldo+dinero;
+        }
     }
     
     public float retirar(float dinero)
